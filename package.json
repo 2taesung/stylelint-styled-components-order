@@ -1,0 +1,35 @@
+{
+  "name": "stylelint-styled-components-order",
+  "version": "1.0.1",
+  "description": "stylelint order config for styled components",
+  "main": "src/index.js",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "styled-components",
+    "stylelint-styled-components",
+    "styled-components-order",
+    "stylelint-order",
+    "order"
+  ],
+  "author": "Taesung Lee <dlxotjde@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/2taesung/stylelint-styled-components-order#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2taesung/stylelint-styled-components-order"
+  },
+  "bugs": {
+    "url": "https://github.com/2taesung/stylelint-styled-components-order/issues"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "dependencies": {
+    "@stylelint/postcss-css-in-js": "^0.38.0",
+    "postcss": "^8.4.24",
+    "postcss-styled-syntax": "^0.4.0",
+    "postcss-syntax": "^0.36.2",
+    "stylelint-order": "^6.0.3"
+  }
+}
