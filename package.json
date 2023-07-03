@@ -1,6 +1,6 @@
 {
   "name": "stylelint-styled-components-order",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "stylelint order config for styled components",
   "main": "src/index.js",
   "keywords": [
