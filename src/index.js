@@ -76,6 +76,8 @@ const groupMap = {
     'border-bottom-width',
     'border-left-width',
 
+    'border-radius',
+
     'box-shadow',
   ],
   Background: [
