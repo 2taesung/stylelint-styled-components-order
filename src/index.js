@@ -122,13 +122,14 @@ module.exports = {
     'order/properties-order': [
       Object.keys(groupMap).map(groupName => ({
         groupName: groupName,
-        emptyLineBefore: 'always',
+        emptyLineBefore: 'threshold',
         noEmptyLineBetween: true,
         properties: groupMap[groupName],
       })),
       {
         unspecified: 'bottomAlphabetical',
-        emptyLineBeforeUnspecified: 'always',
+        emptyLineBeforeUnspecified: 'threshold',
+        emptyLineMinimumPropertyThreshold: 3,
       },
     ],
   },
